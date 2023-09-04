@@ -4,7 +4,7 @@
     {
         public string SchoolName { get; set; }
         private int Grade { get; set; }
-        protected int StudentNumber { get; set; }
+        
 
         public Student()
         {
@@ -24,7 +24,7 @@
 
             this.Grade = 0;
             this.SchoolName = "";
-            this.StudentNumber = 0;
+            
         }
     }
 }
